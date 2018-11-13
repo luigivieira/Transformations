@@ -1,0 +1,29 @@
+{
+  "name": "transformations",
+  "version": "1.0.0",
+  "description": "Illustration of 2D geometric transformations in JavaScript",
+  "private": true,
+  "author": "Luiz C. Vieira",
+  "license": "MIT",
+  "scripts": {
+    "lint": ".\\node_modules\\.bin\\eslint src\\*.js",
+    "build": "babel src -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luigivieira/Transformations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luigivieira/Transformations/issues"
+  },
+  "homepage": "https://github.com/luigivieira/Transformations#readme",
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "prettier-eslint": "^8.8.2",
+    "prettier-eslint-cli": "^4.7.1"
+  },
+  "dependencies": {}
+}
